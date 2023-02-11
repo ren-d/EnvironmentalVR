@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/localuser/Desktop/Project/EnvironmentalVR/EnvironmentalProject
+C:/Users/localuser/Desktop/VRProject/EnvironmentalVR/EnvironmentalProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64978
-Successfully changed project path to: C:/Users/localuser/Desktop/Project/EnvironmentalVR/EnvironmentalProject
-C:/Users/localuser/Desktop/Project/EnvironmentalVR/EnvironmentalProject
+56681
+Successfully changed project path to: C:/Users/localuser/Desktop/VRProject/EnvironmentalVR/EnvironmentalProject
+C:/Users/localuser/Desktop/VRProject/EnvironmentalVR/EnvironmentalProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ C:/Users/localuser/Desktop/Project/EnvironmentalVR/EnvironmentalProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22636] Host "[IP] 10.85.64.206 [Port] 0 [Flags] 2 [Guid] 3438838038 [EditorId] 3438838038 [Version] 1048832 [Id] WindowsEditor(7,RG-N530-A10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25000] Host "[IP] 10.85.64.142 [Port] 0 [Flags] 2 [Guid] 650336342 [EditorId] 650336342 [Version] 1048832 [Id] WindowsEditor(7,RG-N530-A11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22636] Host "[IP] 10.85.64.206 [Port] 0 [Flags] 2 [Guid] 3438838038 [EditorId] 3438838038 [Version] 1048832 [Id] WindowsEditor(7,RG-N530-A10) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25000] Host "[IP] 10.85.64.142 [Port] 0 [Flags] 2 [Guid] 650336342 [EditorId] 650336342 [Version] 1048832 [Id] WindowsEditor(7,RG-N530-A11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 47.38 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 1.12 ms.
+Refreshing native plugins compatible for Editor in 1384.47 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.82 ms.
 Initialize engine version: 2022.2.2f1 (c93c5d3acf5b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/localuser/Desktop/Project/EnvironmentalVR/EnvironmentalProject/Assets
+[Subsystems] Discovering subsystems at path C:/Users/localuser/Desktop/VRProject/EnvironmentalVR/EnvironmentalProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,44 +67,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.043174 seconds.
-- Loaded All Assemblies, in  0.466 seconds
+Registered in 0.057051 seconds.
+- Loaded All Assemblies, in  4.818 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 273 ms
+Android Extension - Scanning For ADB Devices 344 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.547 seconds
+- Finished resetting the current domain, in  0.665 seconds
 Domain Reload Profiling:
-	ReloadAssembly (287ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (4099ms)
+		BeginReloadAssembly (3709ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (100ms)
+			LoadAssemblies (3698ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
-				TypeCache.Initialize (147ms)
-					TypeCache.ScanAssembly (146ms)
-				ResolveRequiredComponents (0ms)
+			SetupTypeCache (681ms)
+				TypeCache.Initialize (680ms)
+					TypeCache.ScanAssembly (678ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (495ms)
+			SetupLoadedEditorAssemblies (607ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (359ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (440ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,10 +112,140 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\Project\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\Project\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.814 seconds
-Refreshing native plugins compatible for Editor in 33.20 ms, found 12 plugins.
+Symbol file data-000001F35ECC29B0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CFA7B80 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CFA7B80 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CFAB790 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CFAB790 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F36054C040 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CFAB790 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CFAB790 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EA03010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EA03010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F536650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC8F820 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC8F820 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC92E30 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC92E30 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC96A40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC96A40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F38B010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EA32830 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EE0FA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F3B4230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5AE520 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5AE520 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F79EE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC96A40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F79EE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EA48040 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3605DD020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EA48040 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC96A40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3605F5230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC96A40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CC96A40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F3B4230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F36037C620 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3605F5230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F36037C620 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3602CDE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3602CDE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3602CDE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Tutorials.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3602CDE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3602CDE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F360395A30 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3602CDE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35ECDA020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3604DF220 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3602CDE20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3604DF220 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3604DF220 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CD2D010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F160C40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1A650 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35ED59C40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EB1EE60 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35ED59C40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35ED59C40 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35ED62C50 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.112 seconds
+Refreshing native plugins compatible for Editor in 36.48 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -123,8 +253,8 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00043] in <ad9866b1ecb04a89a821fca8f7a81545>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <ad9866b1ecb04a89a821fca8f7a81545>:0 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <8f06425e63004caf99a79845675f751e>:0 
    --- End of inner exception stack trace ---
@@ -144,44 +274,44 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.730 seconds
+- Finished resetting the current domain, in  0.975 seconds
 Domain Reload Profiling:
-	ReloadAssembly (261ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (324ms)
+		BeginReloadAssembly (180ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		LoadAllAssembliesAndSetupDomain (526ms)
-			LoadAssemblies (132ms)
+			CreateAndSetChildDomain (22ms)
+		LoadAllAssembliesAndSetupDomain (750ms)
+			LoadAssemblies (185ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (431ms)
-				TypeCache.Initialize (303ms)
-					TypeCache.ScanAssembly (299ms)
+			SetupTypeCache (615ms)
+				TypeCache.Initialize (459ms)
+					TypeCache.ScanAssembly (454ms)
 				ResolveRequiredComponents (5ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (591ms)
+			SetupLoadedEditorAssemblies (818ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
+				InitializePlatformSupportModulesInManaged (37ms)
 				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
-				AfterProcessingInitializeOnLoad (33ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (478ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (39ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 36.89 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-Unloading 4135 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (82.8 KB). Loaded Objects now: 4600.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 4.555700 ms (FindLiveObjects: 0.328200 ms CreateObjectMapping: 0.316000 ms MarkObjects: 3.787300 ms  DeleteObjects: 0.123500 ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 43.74 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 4452 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (82.7 KB). Loaded Objects now: 4917.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 3.928300 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.546500 ms MarkObjects: 2.886600 ms  DeleteObjects: 0.120300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -195,28 +325,150 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 34655.292299 seconds.
-  path: Assets/Scenes/scehbe.prefab
-  artifactKey: Guid(8029f1ba0d980c24d8788d7a2bc096a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/scehbe.prefab using Guid(8029f1ba0d980c24d8788d7a2bc096a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d5a7af428d78b76c4c147199c0a4ec') in 0.962169 seconds 
-Number of asset objects unloaded after import = 2887
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\Project\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\Project\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.944 seconds
-Refreshing native plugins compatible for Editor in 55.81 ms, found 12 plugins.
+Symbol file data-000001F360FE5010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F360FE9C20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EEC6050 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5BFFC20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A3F6C010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33D14B010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E87B410 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5BFFC20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5BFFC20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F361B21020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A71CD010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F361B36830 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F361B36830 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A57B2030 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F3EB010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A56EE850 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5BFFC20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A71D7C20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F360916FA0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A71D7C20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A55DB630 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F32D230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F32D230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A571E020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A55DB630 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CF69B70 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F32D230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F32D230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Tutorials.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F32D230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A55DB630 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F32D230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A55DB630 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A571E020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F74F010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5A1A020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F361607010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E9B0010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EAA2020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A4072030 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E9BBC20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A4072030 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A4072030 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A4165220 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35F5DEA20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 35.44 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00043] in <ad9866b1ecb04a89a821fca8f7a81545>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <ad9866b1ecb04a89a821fca8f7a81545>:0 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <8f06425e63004caf99a79845675f751e>:0 
    --- End of inner exception stack trace ---
@@ -233,43 +485,43 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.568 seconds
+- Finished resetting the current domain, in  1.630 seconds
 Domain Reload Profiling:
-	ReloadAssembly (308ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (300ms)
+		BeginReloadAssembly (191ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (43ms)
-		LoadAllAssembliesAndSetupDomain (616ms)
-			LoadAssemblies (155ms)
+		LoadAllAssembliesAndSetupDomain (548ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (515ms)
-				TypeCache.Initialize (360ms)
-					TypeCache.ScanAssembly (334ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (453ms)
+				TypeCache.Initialize (308ms)
+					TypeCache.ScanAssembly (303ms)
+				ResolveRequiredComponents (5ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (601ms)
+			SetupLoadedEditorAssemblies (583ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (45ms)
 				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (317ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (35ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (37ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 33.87 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
-Unloading 4109 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (47.9 KB). Loaded Objects now: 4615.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 3.249800 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.374900 ms MarkObjects: 2.502800 ms  DeleteObjects: 0.052900 ms)
+Refreshing native plugins compatible for Editor in 33.99 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 4427 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (56.0 KB). Loaded Objects now: 4921.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 3.566900 ms (FindLiveObjects: 0.355700 ms CreateObjectMapping: 0.428800 ms MarkObjects: 2.716400 ms  DeleteObjects: 0.065100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -284,17 +536,1095 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.127974 seconds.
-  path: Assets/Scenes/Shaders.unity
-  artifactKey: Guid(88d67e6a3a7f4a24685013c9a866551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 36686.349632 seconds.
+  path: Assets/BuildObjects/AliveTree.prefab
+  artifactKey: Guid(0716dc366d2d52f4bbe7de695dc1fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Shaders.unity using Guid(88d67e6a3a7f4a24685013c9a866551c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf768723c84355a0ec7d3d711196b4bc') in 0.014334 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/BuildObjects/AliveTree.prefab using Guid(0716dc366d2d52f4bbe7de695dc1fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b08994bdf58cb5468ee38ab779c051') in 0.182378 seconds 
+Number of asset objects unloaded after import = 116
 ========================================================================
 Received Import Request.
-  Time since last request: 0.513608 seconds.
-  path: Assets/Scenes/testScene.unity
-  artifactKey: Guid(6f229b150f3dcdf459aba433aaaefb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 292.311598 seconds.
+  path: Assets/BuildObjects/bottle.prefab
+  artifactKey: Guid(d9051fe1d2885e44d9f867bd04247bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/testScene.unity using Guid(6f229b150f3dcdf459aba433aaaefb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e2266d34eb0f342d646f64154211a3') in 0.007565 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/BuildObjects/bottle.prefab using Guid(d9051fe1d2885e44d9f867bd04247bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e53197c1508c22cd1722223d75d2f88') in 0.034783 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 15.564634 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b7fb329adb482e2175846db9bcb047') in 0.017914 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 20.021452 seconds.
+  path: Assets/BuildObjects/Broken Bottle.prefab
+  artifactKey: Guid(9f510cb4fc474d646b7f0876c82dd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Broken Bottle.prefab using Guid(9f510cb4fc474d646b7f0876c82dd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd958fd463fb82a8e65b5863f0c8921a0') in 0.016876 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 29.364230 seconds.
+  path: Assets/BuildObjects/paper (1).prefab
+  artifactKey: Guid(0f5a88780d34a62419bb8ddaefcc1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/paper (1).prefab using Guid(0f5a88780d34a62419bb8ddaefcc1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fbba3944e129126b7182431bd5b542') in 0.017571 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 51.566958 seconds.
+  path: Assets/BuildObjects/bottle.prefab
+  artifactKey: Guid(d9051fe1d2885e44d9f867bd04247bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/bottle.prefab using Guid(d9051fe1d2885e44d9f867bd04247bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d7c4f62595c6e90de75db251bf8d4b') in 0.014603 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BuildObjects/paper.prefab
+  artifactKey: Guid(28cbbb809e7779e43b1a46485b99e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/paper.prefab using Guid(28cbbb809e7779e43b1a46485b99e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59a5e1925bccd90c08270758304b354') in 0.018656 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.011219 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add7c2562e6d49c149347661a28f52f3') in 0.014683 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.171445 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22bba437a8675c36ab31da9554d856') in 0.011867 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.978660 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62b4e2a97c022e8af6ea9da57fa93d9') in 0.014273 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 118.138607 seconds.
+  path: Assets/BuildObjects/paper (1).prefab
+  artifactKey: Guid(0f5a88780d34a62419bb8ddaefcc1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/paper (1).prefab using Guid(0f5a88780d34a62419bb8ddaefcc1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfb0ae1acb0b1435d710154de76cf53') in 0.011122 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 45.13 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4930.
+Memory consumption went from 77.0 MB to 77.0 MB.
+Total: 5.557400 ms (FindLiveObjects: 0.515100 ms CreateObjectMapping: 0.543600 ms MarkObjects: 4.468800 ms  DeleteObjects: 0.028700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 58.37 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (10.3 KB). Loaded Objects now: 4930.
+Memory consumption went from 77.3 MB to 77.3 MB.
+Total: 16.631200 ms (FindLiveObjects: 0.436000 ms CreateObjectMapping: 0.430600 ms MarkObjects: 15.733600 ms  DeleteObjects: 0.029600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286.030794 seconds.
+  path: Assets/BuildObjects/Broken Bottle.prefab
+  artifactKey: Guid(9f510cb4fc474d646b7f0876c82dd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Broken Bottle.prefab using Guid(9f510cb4fc474d646b7f0876c82dd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a3b0651eab62f24f85c58377fa98d9') in 0.022441 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 8.112547 seconds.
+  path: Assets/BuildObjects/paper (1).prefab
+  artifactKey: Guid(0f5a88780d34a62419bb8ddaefcc1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/paper (1).prefab using Guid(0f5a88780d34a62419bb8ddaefcc1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3a678e4f7ea7dee7e7bc610b555954') in 0.016094 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.805543 seconds.
+  path: Assets/BuildObjects/paper.prefab
+  artifactKey: Guid(28cbbb809e7779e43b1a46485b99e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/paper.prefab using Guid(28cbbb809e7779e43b1a46485b99e933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '664b7d7b18ba5d9d5aafd152007b8572') in 0.020555 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 21.992430 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ce7e6167e80e86dc00e97a42b20dbd') in 0.018354 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.977366 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65344af512954f187d1b145b4e572b59') in 0.013328 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.008140 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2a9d4383822d77935e7dcddfb8dbbe') in 0.015605 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.815818 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055093b9ea497ab07c1a89e1f4d7f89f') in 0.014641 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.412486 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27528316a076cfc5847e7794960b9236') in 0.015955 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 37.023101 seconds.
+  path: Assets/BuildObjects/bottle.prefab
+  artifactKey: Guid(d9051fe1d2885e44d9f867bd04247bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/bottle.prefab using Guid(d9051fe1d2885e44d9f867bd04247bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e487774ab94b25015876c14daa282050') in 0.018774 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 45.39 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4930.
+Memory consumption went from 77.0 MB to 77.0 MB.
+Total: 4.663300 ms (FindLiveObjects: 0.391600 ms CreateObjectMapping: 0.425700 ms MarkObjects: 3.824600 ms  DeleteObjects: 0.020400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.814952 seconds.
+  path: Assets/BuildObjects/paper (1).prefab
+  artifactKey: Guid(0f5a88780d34a62419bb8ddaefcc1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/paper (1).prefab using Guid(0f5a88780d34a62419bb8ddaefcc1c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f107f3896a55cfec3a9bbf439a1ad99') in 0.011790 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 7.886652 seconds.
+  path: Assets/BuildObjects/Broken Bottle.prefab
+  artifactKey: Guid(9f510cb4fc474d646b7f0876c82dd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Broken Bottle.prefab using Guid(9f510cb4fc474d646b7f0876c82dd651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e3d94e70010ead0a9464f6e10ef58d') in 0.012931 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 4.622865 seconds.
+  path: Assets/BuildObjects/bottle.prefab
+  artifactKey: Guid(d9051fe1d2885e44d9f867bd04247bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/bottle.prefab using Guid(d9051fe1d2885e44d9f867bd04247bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e500e1c00c2142cc08b7d741261931c5') in 0.015983 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 34.18 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4930.
+Memory consumption went from 77.0 MB to 77.0 MB.
+Total: 3.602600 ms (FindLiveObjects: 0.363000 ms CreateObjectMapping: 0.398900 ms MarkObjects: 2.823200 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 199.909391 seconds.
+  path: Assets/Objects/margarita-flower/source/margarita.fbx
+  artifactKey: Guid(7a39d83641829a846a92794bdebaf809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/margarita-flower/source/margarita.fbx using Guid(7a39d83641829a846a92794bdebaf809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f511b5a556734fc4045592083b5715d') in 0.083245 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Objects/treecluster_textures/treebark_shader.mat
+  artifactKey: Guid(e04747ca44f9f5641996793bb43f93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/treecluster_textures/treebark_shader.mat using Guid(e04747ca44f9f5641996793bb43f93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f475620990261c9ca675ceea9983eb') in 0.018741 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Objects/treecluster_textures/treecluster_material.mat
+  artifactKey: Guid(65ee06eb35b5f1b498e49ce7054ad1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/treecluster_textures/treecluster_material.mat using Guid(65ee06eb35b5f1b498e49ce7054ad1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52189c8af4cf89dd56df94841351cee') in 0.026376 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.758540 seconds.
+  path: Assets/Objects/trashcan_textures/trashcan_shader.mat
+  artifactKey: Guid(57dd40d1b3a95384a9d64e60631d9793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/trashcan_textures/trashcan_shader.mat using Guid(57dd40d1b3a95384a9d64e60631d9793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d3facd19323d8511aa452b7d028f96') in 0.270905 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.122920 seconds.
+  path: Assets/RedMaterial.mat
+  artifactKey: Guid(e6869a192cd358f4b8692590894968a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RedMaterial.mat using Guid(e6869a192cd358f4b8692590894968a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b93494cc4cb5068e5baefc62070bad8') in 0.017161 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.334892 seconds.
+  path: Assets/Objects/stylized-pine-tree-pack/source/stylized_pine_pack.fbx
+  artifactKey: Guid(6b8a1d38d40e4cc42aa72311c79950d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/stylized-pine-tree-pack/source/stylized_pine_pack.fbx using Guid(6b8a1d38d40e4cc42aa72311c79950d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1b0b47eb18f9f91179fa059d2997eb') in 0.154590 seconds 
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.391406 seconds.
+  path: Assets/ExampleAssets/Materials/Grid.mat
+  artifactKey: Guid(3f9336a53d1d2ea43895699cc52cb411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExampleAssets/Materials/Grid.mat using Guid(3f9336a53d1d2ea43895699cc52cb411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31101c1eaec26b7de7c84dfc7a9cdeb') in 0.017361 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 38.01 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4966.
+Memory consumption went from 77.6 MB to 77.6 MB.
+Total: 4.263000 ms (FindLiveObjects: 0.382800 ms CreateObjectMapping: 0.420100 ms MarkObjects: 3.439000 ms  DeleteObjects: 0.020300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 183.783376 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dc62c20e38cd49060d98c57feaf3ef') in 0.020035 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 45.71 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4966.
+Memory consumption went from 77.6 MB to 77.6 MB.
+Total: 4.147600 ms (FindLiveObjects: 0.377000 ms CreateObjectMapping: 0.448200 ms MarkObjects: 3.301900 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137.122816 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2275d94ee094877940b543dd9b6a5c65') in 0.013415 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.377162 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198634ca28980a10f98e83b66ea3e50f') in 0.014857 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 2.993820 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc257e15805f8b94e40c92f9f1197946') in 0.016607 seconds 
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.779531 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5b58dd866108ccee35d8df0401074d') in 0.011440 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.886114 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346227a37268f4abd759d298f7fb90ed') in 0.012207 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1.682758 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7b033eba739e365e251dd7422e7234') in 0.011131 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 1.814019 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e31405c5631e8d3b4483510da2a50d2') in 0.014444 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 8.857172 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf457500b15c5f5e3bc4e162afef2e6') in 0.013942 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4.507898 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51ba468802e62bad210da008f9d7e2b') in 0.016295 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.596123 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d164bfc499defe45941b5445045c647') in 0.012718 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 41.73 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4966.
+Memory consumption went from 77.7 MB to 77.7 MB.
+Total: 4.508200 ms (FindLiveObjects: 0.395800 ms CreateObjectMapping: 0.472600 ms MarkObjects: 3.614500 ms  DeleteObjects: 0.024200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80.978695 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b2c42b64d9d035ea820d8f4bb052ff') in 0.021844 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.953325 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef50e0b322c1158a1727c480e83b19a') in 0.010859 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.797356 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abadb5df37c529c119e47e08a75bf556') in 0.013034 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.985610 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ee1192ae7f6810ef96a0598b25fc6a') in 0.019365 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 45.25 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4966.
+Memory consumption went from 77.7 MB to 77.7 MB.
+Total: 3.874000 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.460800 ms MarkObjects: 2.996900 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 54.59 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (10.3 KB). Loaded Objects now: 4966.
+Memory consumption went from 78.0 MB to 78.0 MB.
+Total: 5.482600 ms (FindLiveObjects: 0.386300 ms CreateObjectMapping: 0.497200 ms MarkObjects: 4.577100 ms  DeleteObjects: 0.021200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 225.539185 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb66a4c2e1556c448c4563bfbc6d9442') in 0.012592 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.282932 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd193873e3a736f390f8185812df665c') in 0.011071 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 8.309429 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c5a2adca853d5d7ec708d2416cddce') in 0.015359 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.049683 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0920df948c09e2b26661baf443b3913') in 0.017208 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.655216 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66896215d79ade64e2b3ca519c1ae89e') in 0.012281 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 9.512035 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf6fb26ec7b24cc22f1837ff23ffdb6') in 0.012227 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 7.516695 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d323d7be719b68bced0a9d6061bb1a') in 0.019097 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.723702 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f0d2fa3c3e67b2a030561f0cc54461') in 0.012058 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.396533 seconds.
+  path: Assets/BuildObjects/Waterbottle.prefab
+  artifactKey: Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Waterbottle.prefab using Guid(5ad652b1cfbf0d54ea17efdcbba00076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096f61c9f3f986390dd3e243af21c307') in 0.013687 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 122.098296 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0d32baa30615699570f83048566da6') in 0.120843 seconds 
+Number of asset objects unloaded after import = 214
+========================================================================
+Received Import Request.
+  Time since last request: 3.338607 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ea80f660c42279e8ba8cb6ff68e210') in 0.111349 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 10.618568 seconds.
+  path: Assets/BuildObjects/Flowers 1.prefab
+  artifactKey: Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers 1.prefab using Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a22b716e8dd5e59fe63e162b88d8b00') in 0.010008 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 20.028926 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ab522f4acffd00eea4786cfc87465e') in 0.113475 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 4.460881 seconds.
+  path: Assets/BuildObjects/FlowersBed.prefab
+  artifactKey: Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/FlowersBed.prefab using Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b9319e48fcc445300e14c48bec7deb') in 0.009849 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.234889 seconds.
+  path: Assets/BuildObjects/FlowersBed.prefab
+  artifactKey: Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/FlowersBed.prefab using Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be76b5edf00535333a3d35da4d660c1') in 0.008668 seconds 
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 3.621049 seconds.
+  path: Assets/BuildObjects/FlowersBed.prefab
+  artifactKey: Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/FlowersBed.prefab using Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4e6c3cf04ec5e51eb252f8e950c6f4') in 0.008785 seconds 
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 2.216068 seconds.
+  path: Assets/BuildObjects/FlowersBed.prefab
+  artifactKey: Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/FlowersBed.prefab using Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a39758b904326910493aa3eae9702fe') in 0.009275 seconds 
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 23.833589 seconds.
+  path: Assets/BuildObjects/FlowersBed.prefab
+  artifactKey: Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/FlowersBed.prefab using Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d09b221729349e4d2247cd87e35e237') in 0.012447 seconds 
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Import Request.
+  Time since last request: 4.422891 seconds.
+  path: Assets/BuildObjects/FlowersBed.prefab
+  artifactKey: Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/FlowersBed.prefab using Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1294e5f195b44653fa58eb769321a90d') in 0.013398 seconds 
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 43.46 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4966.
+Memory consumption went from 77.9 MB to 77.9 MB.
+Total: 4.987400 ms (FindLiveObjects: 0.388200 ms CreateObjectMapping: 0.441200 ms MarkObjects: 4.133200 ms  DeleteObjects: 0.023700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137.104525 seconds.
+  path: Assets/BuildObjects/AliveTree.prefab
+  artifactKey: Guid(0716dc366d2d52f4bbe7de695dc1fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/AliveTree.prefab using Guid(0716dc366d2d52f4bbe7de695dc1fa1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167db73ffba56abda0322a849d1e69af') in 0.055030 seconds 
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 5.764987 seconds.
+  path: Assets/BuildObjects/DeadTree.prefab
+  artifactKey: Guid(32dbd219138b3d34d92b9b28fffc00b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/DeadTree.prefab using Guid(32dbd219138b3d34d92b9b28fffc00b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7428c541bc3710b3ca631dca6b778f39') in 0.044856 seconds 
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 9.846085 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc6511a382d973b8531d27284a8d038') in 0.120959 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 0.863355 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35fa581eb1cb140113e03eb18ab61ac') in 0.111223 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 3.103742 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7571a07a443b6e979559b355961997fe') in 0.108341 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 1.905272 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d1245c0ddc3be6684a8ea64b95d79e') in 0.110574 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 5.930031 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f3971c698ee3f13c0ff3d4f721feb6') in 0.108334 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 1.302461 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '260a5b010beb46732205f8b67e4173ed') in 0.110467 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 0.896185 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665f085a540c4185221db27796ce22f5') in 0.110352 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 6.136219 seconds.
+  path: Assets/BuildObjects/Flowers.prefab
+  artifactKey: Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/Flowers.prefab using Guid(dbb3f82347afd9a48954364901c21bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28058b3618541582b83b21449079cb74') in 0.110079 seconds 
+Number of asset objects unloaded after import = 215
+========================================================================
+Received Import Request.
+  Time since last request: 23.330566 seconds.
+  path: Assets/BuildObjects/FlowersBed.prefab
+  artifactKey: Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BuildObjects/FlowersBed.prefab using Guid(c0e352920eb65074a9b1cb4acfe40528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb32fdef9dd8e8bf71c9b8fbe1964886') in 0.009591 seconds 
+Number of asset objects unloaded after import = 137
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 48.00 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.23 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4966.
+Memory consumption went from 78.3 MB to 78.3 MB.
+Total: 4.471700 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.454000 ms MarkObjects: 3.587200 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 320.638974 seconds.
+  path: Assets/PrototypeAssets/Bin.prefab
+  artifactKey: Guid(d7888a3bdc3d38c438ba2c281dbafbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PrototypeAssets/Bin.prefab using Guid(d7888a3bdc3d38c438ba2c281dbafbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceea0236d69b9a8ad2d10ccf5d9d29b8') in 0.019393 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001693 seconds.
+  path: Assets/Objects/Broken Bottle.fbx
+  artifactKey: Guid(708f0b87549898e4789956237b0c0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/Broken Bottle.fbx using Guid(708f0b87549898e4789956237b0c0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00aa30e294df5fc5c87cfd93a0775bbf') in 0.028555 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 48.568394 seconds.
+  path: Assets/BlueMaterial.mat
+  artifactKey: Guid(cc136816f131f804e9988ed9f5b2596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BlueMaterial.mat using Guid(cc136816f131f804e9988ed9f5b2596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a7f4426d35813f948222565a392822') in 0.019251 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001F3A6B593E0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6BEB5D0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6C59520 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5A74430 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6A78970 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EF93850 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33D14B010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A71F5AB0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6BEB5D0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6C59520 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A49B0020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A7666810 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5A74430 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EBF3420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A49B0020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Tutorials.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EBFAE70 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6BEB5D0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A3F24820 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CB37010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A565F630 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A5C20F20 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.007.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F36236BF80 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6C59520 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6A78970 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.007.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3606EA010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A7E65010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F36075BEB0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A3F24820 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A3F24820 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Tutorials.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A3F24820 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F36236BF80 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A3F24820 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F36236BF80 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3606EA010 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A49CA230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F36092FFD0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EC61910 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A49CA230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A668EFA0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33C4B7F60 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EAA2020 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A49CA230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F361CAB700 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A6BEB5D0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A7656870 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F33CDFDA50 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35EC478C0 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A49CA230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A49CA230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3A49CA230 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F35E883420 doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\localuser\Desktop\VRProject\EnvironmentalVR\EnvironmentalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.117 seconds
+Refreshing native plugins compatible for Editor in 35.15 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00043] in <ad9866b1ecb04a89a821fca8f7a81545>:0 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <ad9866b1ecb04a89a821fca8f7a81545>:0 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <8f06425e63004caf99a79845675f751e>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <8f06425e63004caf99a79845675f751e>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <8f06425e63004caf99a79845675f751e>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <d92715ccd3ac42dbaeb8a2239166e2e8>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 12.277 seconds
+Domain Reload Profiling:
+	ReloadAssembly (496ms)
+		BeginReloadAssembly (374ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (194ms)
+		LoadAllAssembliesAndSetupDomain (599ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+				TypeCache.Initialize (350ms)
+					TypeCache.ScanAssembly (340ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 61.17 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 4426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (48.0 KB). Loaded Objects now: 4971.
+Memory consumption went from 0.66 GB to 0.66 GB.
+Total: 3.822800 ms (FindLiveObjects: 0.346000 ms CreateObjectMapping: 0.417900 ms MarkObjects: 2.986100 ms  DeleteObjects: 0.071800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 33.60 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4971.
+Memory consumption went from 77.1 MB to 77.1 MB.
+Total: 3.199100 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.354300 ms MarkObjects: 2.502500 ms  DeleteObjects: 0.012000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 52.66 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4971.
+Memory consumption went from 77.1 MB to 77.1 MB.
+Total: 4.116300 ms (FindLiveObjects: 0.407500 ms CreateObjectMapping: 0.449000 ms MarkObjects: 3.250200 ms  DeleteObjects: 0.008700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

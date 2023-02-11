@@ -39,6 +39,8 @@ public class TrashCan : MonoBehaviour
 
             if (other.tag == "Respawn")
             {
+                trashBinned = 0;
+
                 SceneManager.LoadScene(0);
             }
             Destroy(other.gameObject);
