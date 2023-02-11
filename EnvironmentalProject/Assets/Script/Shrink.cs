@@ -22,16 +22,21 @@ public class Shrink : MonoBehaviour
         if (!gameObject.active)
             return;
 
-        timer += Time.deltaTime;
-        newScale = originalScale * (1 - (timer / timeToShrink));
-
-        transform.localScale = newScale;
         if (transform.localScale.y <= 0.1 && !once)
         {
             once = true;
             GameObject g = Instantiate(newModel, transform.position, Quaternion.identity);
             //this.transform.gameObject.SetActive(false);
         }
+        else if (transform.localScale.y > 0.1)
+        {
+            timer += Time.deltaTime;
+            newScale = originalScale * (1 - (timer / timeToShrink));
+
+            transform.localScale = newScale;
+        }
+
+        
     }
 
 }
