@@ -274,3 +274,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 361756.689382 seconds.
+  path: Assets/Objects/bottle_shader.mat
+  artifactKey: Guid(ef3fd83a01b615043bcc68087084368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/bottle_shader.mat using Guid(ef3fd83a01b615043bcc68087084368a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed2217ccaf7ccc5ea391c2f2bea80b9') in 0.124724 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Objects/Broken Bottle.fbx
+  artifactKey: Guid(708f0b87549898e4789956237b0c0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/Broken Bottle.fbx using Guid(708f0b87549898e4789956237b0c0c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00aa30e294df5fc5c87cfd93a0775bbf') in 0.050896 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 340.966181 seconds.
+  path: Assets/Objects/cliff-1/textures/cliff1Color.png
+  artifactKey: Guid(feeeaa42d4ba47d4cbbc2ebdc1ba3106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/cliff-1/textures/cliff1Color.png using Guid(feeeaa42d4ba47d4cbbc2ebdc1ba3106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e60722144c84eb69877d4e46384f9bc') in 0.083661 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.098815 seconds.
+  path: Assets/Objects/cliff-1/textures/cliff1Curv.png
+  artifactKey: Guid(39f19b8e455d43545be310f3b0a0508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Objects/cliff-1/textures/cliff1Curv.png using Guid(39f19b8e455d43545be310f3b0a0508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce81c5a67d9c2fcade65f8ff55ba528') in 0.076701 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
