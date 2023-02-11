@@ -12,21 +12,24 @@ public class Grow : MonoBehaviour
     void Start()
     {
         originalScale = transform.localScale;
+        originalScale = new Vector3(originalScale.x, 1, originalScale.z);
         transform.localScale = new Vector3(0, 0, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.localScale.y >= 1.0f)
-            return;
+        if (transform.localScale.y < 1.0f)
+        {
+            timer += Time.deltaTime;
+            newScale = originalScale * (timer / timeToGrow);
+
+            transform.localScale = newScale;
+        }
+
         if (!gameObject.active)
             return;
 
-        timer += Time.deltaTime;
-        newScale = originalScale * (timer / timeToGrow);
-
-        transform.localScale = newScale;
   
     }
 }
