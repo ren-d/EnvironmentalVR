@@ -5,19 +5,22 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.SceneManagement;
 public class TrashCan : MonoBehaviour
 {
-    public GameObject[] trees;
+    public Shrink[] deadFoliage;
     public GameObject progressBar;
     public int trashBinned = 0;
 
-    public const int winCounter = 10;
+    public int winCounter = 10;
     // Start is called before the first frame update
     void Start()
     {
-        foreach (GameObject tree in trees)
+        Shrink[] treesFound = FindObjectsOfType<Shrink>();
+        deadFoliage = treesFound;
+        foreach (Shrink foliage in deadFoliage)
         {
-            tree.SetActive(false);
+            foliage.gameObject.SetActive(false);
         }
         progressBar.GetComponent<RectTransform>().localScale = new Vector3(0,1,1);
+        winCounter = deadFoliage.Length;
     }
 
     // Update is called once per frame
@@ -40,6 +43,8 @@ public class TrashCan : MonoBehaviour
             }
             Destroy(other.gameObject);
             trashBinned++;
+            if (trashBinned > deadFoliage.Length)
+                return;
             UpdateProgressBar(trashBinned);
             EnableTree(trashBinned);
         }
@@ -47,7 +52,10 @@ public class TrashCan : MonoBehaviour
 
     private void EnableTree(int treeNum)
     {
-        trees[treeNum].gameObject.SetActive(true);
+
+
+
+        deadFoliage[treeNum].gameObject.SetActive(true);
         if (trashBinned >= winCounter)
         {
             EndGame();
@@ -55,7 +63,9 @@ public class TrashCan : MonoBehaviour
     }
     private void UpdateProgressBar(int treeNum)
     {
-        progressBar.GetComponent<RectTransform>().localScale = new Vector3(treeNum/winCounter,1,1);
+        float a = treeNum;
+        float b = winCounter;
+        progressBar.GetComponent<RectTransform>().localScale = new Vector3(a/b,1.0f,1.0f);
     }
 
     public void EndGame()
