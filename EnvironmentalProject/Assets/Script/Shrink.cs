@@ -10,6 +10,7 @@ public class Shrink : MonoBehaviour
     private float timer = 0;
     public float timeToShrink = 3;
     bool once = false;
+    public bool start = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +27,10 @@ public class Shrink : MonoBehaviour
         {
             once = true;
             GameObject g = Instantiate(newModel, transform.position, Quaternion.identity);
-            //this.transform.gameObject.SetActive(false);
+            this.transform.gameObject.SetActive(false);
         }
-        else if (transform.localScale.y > 0.1)
+        
+        if (transform.localScale.y > 0.1f && start)
         {
             timer += Time.deltaTime;
             newScale = originalScale * (1 - (timer / timeToShrink));

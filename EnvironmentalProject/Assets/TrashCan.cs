@@ -7,18 +7,18 @@ public class TrashCan : MonoBehaviour
 {
     public Shrink[] deadFoliage;
     public GameObject progressBar;
-    public int trashBinned = 0;
+    public static int trashBinned = 0;
 
-    public int winCounter = 10;
+    public static int winCounter = 10;
     // Start is called before the first frame update
     void Start()
     {
         Shrink[] treesFound = FindObjectsOfType<Shrink>();
         deadFoliage = treesFound;
-        foreach (Shrink foliage in deadFoliage)
-        {
-            foliage.gameObject.SetActive(false);
-        }
+        //foreach (Shrink foliage in deadFoliage)
+        //{
+            //foliage.gameObject.SetActive(false);
+        //}
         progressBar.GetComponent<RectTransform>().localScale = new Vector3(0,1,1);
         winCounter = deadFoliage.Length;
     }
@@ -55,7 +55,7 @@ public class TrashCan : MonoBehaviour
 
 
 
-        deadFoliage[treeNum].gameObject.SetActive(true);
+        deadFoliage[treeNum].start = true;
         if (trashBinned >= winCounter)
         {
             EndGame();
