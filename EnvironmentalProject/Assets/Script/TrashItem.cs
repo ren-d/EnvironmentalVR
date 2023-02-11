@@ -20,6 +20,6 @@ public class TrashItem : MonoBehaviour
 
     public void ChangeScale()
     {
-        this.gameObject.transform.localScale += new Vector3(0.5f,0.5f,0.5f);
+        //this.gameObject.transform.localScale += new Vector3(0.5f,0.5f,0.5f);
     }
 }
