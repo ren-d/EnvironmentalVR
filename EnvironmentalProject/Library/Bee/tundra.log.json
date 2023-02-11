@@ -723,6 +723,7 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueuedNodeIndex":584,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)","enqueueingNodeIndex":562}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp","enqueuedNodeIndex":583,"enqueueingNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueueingNodeIndex":584}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","enqueuedNodeIndex":724,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":6}
+<<<<<<< HEAD
 {"msg":"inputSignatureChanged","annotation":"WriteText Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.rsp2","index":96,"changes":[{"key":"WriteFilePayload","value":"/pathmap:\"C:\\Users\\localuser\\Desktop\\Project\\EnvironmentalVR\\EnvironmentalProject\"=.","oldvalue":null}]}
 {"msg":"inputSignatureChanged","annotation":"WriteText Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.AdditionalFile.txt","index":94,"changes":[{"key":"WriteFilePayload","value":"C:\\Users\\localuser\\Desktop\\Project\\EnvironmentalVR\\EnvironmentalProject","oldvalue":null}]}
 {"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.rsp2","displayName":"Writing UnityEngine.UI.rsp2","index":96}
@@ -1362,3 +1363,5 @@
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","displayName":"Copying Assembly-CSharp.pdb","index":724}
 {"msg":"noderesult","processed_node_count":721,"number_of_nodes_ever_queued":724,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll","index":723,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.dll"}
 {"msg":"noderesult","processed_node_count":722,"number_of_nodes_ever_queued":724,"annotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","index":724,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Assembly-CSharp.pdb"}
+=======
+>>>>>>> environment2
